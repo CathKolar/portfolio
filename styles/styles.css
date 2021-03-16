@@ -1,9 +1,30 @@
-
+body{
+    margin-top: 100px;
+}
+nav{ 
+    font-family: 'Roboto Slab', serif;
+}
 h1{
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
+    font-size: 96px;
 }
 p{
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
 }
+h2, .pseudo-h2{ 
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 48px; ;}
+
+h3, .pseudo-h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    opacity: 0.7; 
+}
+img{
+   border-radius: 50%;}
+footer{
+    text-align: center;
+}   
