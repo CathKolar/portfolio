@@ -1,6 +1,7 @@
 :root {
   --heading-font-family: "Roboto Slab", serif;
   --default-font-family: "Poppins", sans-serif;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 body {
@@ -52,6 +53,7 @@ h1 {
   border-radius: 50%;
   max-width: 310px;
   max-height: 310px;
+  box-shadow: var(--box-shadow);
 }
 
 @media (max-width: 576px) {
