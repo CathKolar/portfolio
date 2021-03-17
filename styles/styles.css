@@ -30,25 +30,25 @@ footer {
   margin-top: 100px;
   text-align: center;
 }
-.hero h1 {
+h1 {
   font-weight: bold;
   font-size: 96px;
 }
 
-.hero .pseudo-h2 {
+.pseudo-h2 {
   font-family: var(--default-font-family);
   font-weight: normal;
   font-size: 35px;
 }
 
-.hero .pseudo-h3 {
+.pseudo-h3 {
   font-family: var(--default-font-family);
   font-weight: normal;
   font-size: 24px;
   opacity: 0.7;
 }
 
-.hero .avatar {
+.avatar {
   border-radius: 50%;
   max-width: 310px;
   max-height: 310px;
@@ -66,7 +66,7 @@ footer {
   .pseudo-h3 {
     font-size: 24px;
   }
-  .hero .avatar {
+  .avatar {
     margin: 20px auto;
     max-width: 50%;
   }
