@@ -1,42 +1,59 @@
+:root {
+  --heading-font-family: "Roboto Slab", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
 body {
   margin-top: 100px;
 }
-nav {
-  font-family: "Roboto Slab", serif;
-}
-h1 {
-  font-family: "Roboto Slab", serif;
-  font-weight: bold;
-  font-size: 96px;
-}
-p {
-  font-family: "Poppins", sans-serif;
+
+p{
+  font-family: var(--default-font-family);
   font-weight: normal;
-}
-h2,
-.pseudo-h2 {
-  font-family: "Poppins", sans-serif;
-  font-weight: normal;
-  font-size: 35px;
 }
 
+h1, 
+h2,
 h3,
-.pseudo-h3 {
-  font-family: "Poppins", sans-serif;
+h4,
+h5,
+h6 {
+  font-family:var(--heading-font-family);
   font-weight: normal;
-  font-size: 24px;
-  opacity: 0.7;
+}
+
+nav {
+  font-family: "Roboto Slab", serif;
 }
 
 footer {
   margin-top: 100px;
   text-align: center;
 }
-.avatar {
+.hero h1 {
+  font-weight: bold;
+  font-size: 96px;
+}
+
+.hero .pseudo-h2 {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  font-size: 35px;
+}
+
+.hero .pseudo-h3 {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+.hero .avatar {
   border-radius: 50%;
   max-width: 310px;
   max-height: 310px;
 }
+
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
@@ -49,7 +66,7 @@ footer {
   .pseudo-h3 {
     font-size: 24px;
   }
-  .avatar {
+  .hero .avatar {
     margin: 20px auto;
     max-width: 50%;
   }
