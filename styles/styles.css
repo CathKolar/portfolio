@@ -6,13 +6,11 @@
 
 body {
   font-family: var(--default-font-family);
-  margin-top: 100px;
+  color: #4f5151;
 }
-
-p {
-  font-weight: normal;
+nav {
+  font-family: "Roboto Slab", serif;
 }
-
 h1,
 h2,
 h3,
@@ -23,13 +21,24 @@ h6 {
   font-weight: bold;
 }
 
-nav {
-  font-family: "Roboto Slab", serif;
+h2 {
+  font-size: 55px;
+}
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  opacity: 0.7;
 }
 
 footer {
   margin-top: 100px;
   text-align: center;
+}
+.hero {
+  background-color: #eff1f3;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 .hero h1 {
   font-weight: bold;
@@ -56,11 +65,15 @@ footer {
   box-shadow: var(--box-shadow);
 }
 
+.project-description {
+  padding-top: 40px;
+}
+
 @media (max-width: 576px) {
   .hero h1 {
     font-size: 48px;
   }
-  .hero p {
+  .hero p, .project-description h2 {
     font-size: 32px;
   }
   .hero h2 {
@@ -69,5 +82,9 @@ footer {
   .hero img {
     margin: 20px auto;
     max-width: 50%;
+  }
+  .project-description {
+    padding-top: 0;
+    text-align: center;
   }
 }
