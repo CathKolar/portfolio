@@ -2,11 +2,13 @@
   --heading-font-family: "Roboto Slab", serif;
   --default-font-family: "Poppins", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  --primary-text: #4f5151;
+  --secondary-text: #2b6777;
+  --secondary-color: #eff1f3;
 }
-
 body {
   font-family: var(--default-font-family);
-  color: #4f5151;
+  color: var(--primary-text);
 }
 nav {
   font-family: "Roboto Slab", serif;
@@ -22,6 +24,7 @@ h6 {
 }
 
 h2 {
+  font-family: var(--heading-font-family);
   font-size: 55px;
 }
 p {
@@ -35,8 +38,24 @@ footer {
   margin-top: 100px;
   text-align: center;
 }
+.btn-branding {
+  background-color: var(--secondary-text);
+  color: var(--secondary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  box-shadow: var(--box-shadow);
+  transition: ease 400ms;
+}
+.btn-branding:hover {
+  color: var(--secondary-text);
+  background-color: var(--secondary-color);
+}
+
 .hero {
-  background-color: #eff1f3;
+  background-color: var(--secondary-color);
+  color: var(--primary-text);
   padding-top: 60px;
   padding-bottom: 40px;
 }
@@ -70,8 +89,7 @@ footer {
 }
 
 @media (max-width: 990px) {
-  
- .project-description h2 {
+  .project-description h2 {
     font-size: 32px;
   }
 
@@ -85,7 +103,8 @@ footer {
   .hero h1 {
     font-size: 48px;
   }
-  .hero p, .project-description h2 {
+  .hero p,
+  .project-description h2 {
     font-size: 32px;
   }
   .hero h2 {
