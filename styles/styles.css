@@ -38,6 +38,7 @@ p {
 }
 .fab,
 .fas {
+  display: block;
   font-size: 50px;
   padding-left: 5px;
   padding-right: 5px;
