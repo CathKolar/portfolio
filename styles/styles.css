@@ -32,29 +32,20 @@ p {
   line-height: 1.5;
   opacity: 0.7;
 }
+li {
+  margin: 0 auto;
+}
 i {
   font-size: 50px;
-  padding-left: 5px;
-  padding-right: 5px;
+  transition: ease 400ms;
+}
+i:hover {
+  color: var(--secondary-text);
 }
 
 footer {
   margin-top: 100px;
   text-align: center;
-}
-.btn-branding {
-  background-color: var(--secondary-text);
-  color: var(--secondary-color);
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 27px;
-  padding: 15px 30px;
-  box-shadow: var(--box-shadow);
-  transition: ease 400ms;
-}
-.btn-branding:hover {
-  color: var(--secondary-text);
-  background-color: var(--secondary-color);
 }
 
 .hero {
@@ -82,7 +73,7 @@ footer {
 }
 
 .hero img {
-  border-radius: 50%;
+  border-radius: 200px;
   max-width: 310px;
   max-height: 310px;
   box-shadow: var(--box-shadow);
@@ -90,6 +81,36 @@ footer {
 
 .project-description {
   padding-top: 70px;
+}
+
+.btn-branding {
+  background-color: #307385;
+  color: var(--secondary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  box-shadow: var(--box-shadow);
+  transition: ease 400ms;
+}
+
+.btn-branding:hover {
+  color: var(--secondary-color);
+  background-color: var(--secondary-text);
+}
+
+.about-section {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
 }
 
 .skill-list {
