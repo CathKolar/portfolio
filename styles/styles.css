@@ -83,6 +83,12 @@ footer {
   padding-top: 70px;
 }
 
+.img-surround {
+  background-color: #307385;
+}
+.img-weather {
+  border-radius: 13px;
+}
 .btn-branding {
   background-color: #307385;
   color: var(--secondary-color);
