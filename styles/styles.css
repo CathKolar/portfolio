@@ -48,12 +48,12 @@ footer {
   text-align: center;
 }
 .hero-main {
-  height: 100vh;
+  padding-top: 70px;
+  padding-bottom: 40px;
   background-color: var(--secondary-color);
 }
 .hero {
   color: var(--primary-text);
-  padding-top: 70px;
 }
 .hero p {
   font-family: var(--default-font-family);
