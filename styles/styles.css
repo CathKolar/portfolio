@@ -79,14 +79,15 @@ footer {
   max-height: 310px;
   box-shadow: var(--box-shadow);
 }
-
-.project-description {
-  padding-top: 70px;
+.row-project {
+  height: 25rem;
+}
+.card {
+  height: 100%;
+  border: none;
+  box-shadow: var(--box-shadow);
 }
 
-.img-surround {
-  background-color: #307385;
-}
 .img-weather {
   border-radius: 13px;
 }
@@ -94,9 +95,9 @@ footer {
   background-color: #307385;
   color: var(--secondary-color);
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 12px;
   line-height: 27px;
-  padding: 15px 30px;
+  padding: 5px 5px;
   box-shadow: var(--box-shadow);
   transition: ease 400ms;
 }
@@ -126,28 +127,13 @@ footer {
 }
 
 @media (max-width: 990px) {
-  .project-description h2 {
-    font-size: 32px;
-  }
-
-  .project-description {
-    padding-top: 0;
-    text-align: center;
-  }
-  .btn-branding {
-    font-size: 12px;
-    line-height: 20px;
-    margin-left: 5px;
-    padding: 10px 25px;
-  }
 }
 
 @media (max-width: 576px) {
   .hero h1 {
     font-size: 45px;
   }
-  .hero p,
-  .project-description h2 {
+  .hero p {
     font-size: 32px;
   }
   .hero h2 {
@@ -156,10 +142,6 @@ footer {
   .hero img {
     margin: 20px auto;
     max-width: 50%;
-  }
-  .project-description {
-    padding-top: 0;
-    text-align: center;
   }
 
   i {
