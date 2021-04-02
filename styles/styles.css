@@ -79,9 +79,7 @@ footer {
   max-height: 310px;
   box-shadow: var(--box-shadow);
 }
-.row-project {
-  height: 25rem;
-}
+
 .card {
   height: 100%;
   border: none;
