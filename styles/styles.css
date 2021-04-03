@@ -1,20 +1,18 @@
 :root {
   --heading-font-family: "Roboto Slab", serif;
   --default-font-family: "Poppins", sans-serif;
-  --box-shadow: 0 5px 10px rgba(5, 10, 15, 0.4);
-  --primary-text: #050a0e;
-  --secondary-text: #2b6777;
+  --box-shadow: 0 5px 10px rgba(16, 40, 83, 0.4);
+  --primary-text: #002852;
+  --secondary-text: #e49d22;
   --primary-color: #4488bb;
-  --secondary-color: #f0f8ff;
+  --secondary-color: #fcfaff;
 }
 body {
   font-family: var(--default-font-family);
   color: var(--primary-text);
-  background-color: #f0f8ff;
+  background-color: var(--secondary-color);
 }
-nav {
-  font-family: "Roboto Slab", serif;
-}
+
 h1,
 h2,
 h3,
@@ -33,6 +31,37 @@ p {
   font-size: 16px;
   line-height: 1.5;
   opacity: 0.7;
+}
+nav {
+  padding: 20px 0;
+  font-family: var(--default-font-family);
+  background-color: #002852;
+  color: var(--secondary-color);
+}
+nav img {
+  max-height: 40px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav a,
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+a:hover,
+li.active {
+  text-decoration: none;
+  color: var(--secondary-text);
 }
 li {
   margin: 0 auto;
@@ -92,7 +121,6 @@ footer {
   height: 100%;
   border: none;
   box-shadow: var(--box-shadow);
-  background-color: var(--secondary-color);
 }
 .card h5 {
   font-family: var(--default-font-family);
@@ -102,20 +130,20 @@ footer {
   border-radius: 13px;
 }
 .btn-branding {
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  background-color: var(--secondary-text);
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-text);
   border-radius: 4px;
   font-size: 12px;
   line-height: 27px;
-  padding: 5px 5px;
-  box-shadow: var(--box-shadow);
-  transition: ease 400ms;
+  padding: 5px 10px;
+
+  transition: all 100ms ease-in-out;
 }
 
 .btn-branding:hover {
   color: var(--secondary-color);
-  background-color: var(--primary-color);
+  background-color: #cd8d1e;
 }
 
 .about-section {
@@ -153,6 +181,14 @@ footer {
   .hero img {
     margin: 20px auto;
     max-width: 50%;
+  }
+
+  nav li {
+    font-size: 12px;
+  }
+  .card {
+    margin: 0 auto;
+    max-width: 70vw;
   }
 
   i {
