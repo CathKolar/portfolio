@@ -59,7 +59,8 @@ a {
 
 nav a:hover,
 a:hover,
-li.active {
+li.active,
+.contact a:hover {
   text-decoration: none;
   color: var(--secondary-text);
 }
@@ -146,16 +147,16 @@ footer {
   background-color: #cd8d1e;
 }
 
-.about-section {
+.content {
   padding-top: 60px;
   padding-bottom: 40px;
 }
 
-.about-section h1 {
+.content h1 {
   font-size: 64px;
 }
 
-.about-section h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
@@ -164,6 +165,7 @@ footer {
   list-style-type: none;
   text-align: center;
 }
+
 
 @media (max-width: 990px) {
 }
