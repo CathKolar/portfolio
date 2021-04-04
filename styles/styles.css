@@ -223,6 +223,7 @@ footer {
 
   i {
     font-size: 18px;
+    padding: 0 0;
   }
   li br {
     display: none;
