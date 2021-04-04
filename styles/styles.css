@@ -185,7 +185,9 @@ footer h6 a:hover {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-
+.paragraph {
+  max-width: 55vw;
+}
 .skill-list {
   list-style-type: none;
   text-align: center;
@@ -238,6 +240,17 @@ footer h6 a:hover {
   .card {
     margin: 0 auto;
     max-width: 70vw;
+  }
+
+  .about  {
+    text-align: center;
+  }
+  .about h1{
+    font-size: 45px
+  }
+  .paragraph {
+    max-width: 100%;
+    font-size: 14px;
   }
 
   .contact-page h1 {
