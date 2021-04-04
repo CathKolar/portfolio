@@ -66,10 +66,12 @@ li.active,
 }
 li {
   margin: 0 auto;
+  font-size: 14px;
 }
 i {
   margin-top: 20px;
-  font-size: 50px;
+  padding: 0 20px;
+  font-size: 30px;
 }
 
 footer {
