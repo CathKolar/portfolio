@@ -81,6 +81,16 @@ footer {
   color: var(--secondary-color);
   height: 100% 100%;
 }
+footer i {
+  border: var(--secondary-text) solid 1px;
+  padding: 10px;
+  margin: 0 10px;
+  border-radius: 100%;
+  transition: all 100ms ease-in-out;
+}
+footer i:hover {
+  border: var(--secondary-color) solid 1px;
+}
 .hero-main {
   padding-top: 70px;
   padding-bottom: 40px;
