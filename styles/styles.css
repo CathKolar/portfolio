@@ -2,7 +2,7 @@
   --heading-font-family: "Roboto Slab", serif;
   --default-font-family: "Poppins", sans-serif;
   --box-shadow: 0 5px 10px rgba(16, 40, 83, 0.4);
-  --transition: var(--transition);
+  --transition: all 100ms ease-in-out;
   --primary-text: #002852;
   --primary-color: #4488bb;
   --secondary-color: #fcfaff;
