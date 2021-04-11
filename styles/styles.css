@@ -32,7 +32,7 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.5;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 nav {
   padding: 20px 0;
@@ -190,6 +190,14 @@ footer h6 a:hover {
 .paragraph {
   max-width: 55vw;
 }
+.p-link {
+  color: var(--link-color);
+  transition: var(--transition);
+  text-decoration: var(--link-color) underline;
+}
+.p-link:hover {
+  color: var(--dark-link-color);
+}
 .skill-list {
   list-style-type: none;
   text-align: center;
@@ -210,9 +218,6 @@ footer h6 a:hover {
 }
 .contact-page a:hover {
   color: var(--dark-link-color);
-}
-
-@media (max-width: 990px) {
 }
 
 @media (max-width: 576px) {
